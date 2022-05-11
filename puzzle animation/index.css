@@ -1,0 +1,126 @@
+body{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto ;
+
+}
+.Line{
+    display: block;
+}
+
+img{
+    position: relative;
+}
+
+/*    postion    --------------------------------- */
+
+.imgone{
+    max-width: 200px;
+}
+.imgtwo {
+    max-height: 208px;
+    position: relative;
+    right: 65px;
+    top: 2px;
+}
+
+.imgthree{
+
+    max-width: 240px;
+    bottom: 66px;
+}
+.imgfour{
+ max-width: 204px;
+ bottom: 68px;
+ right: 65px;
+    
+}
+
+.imgfive{
+max-height: 240px;
+bottom: 62px;
+right: 130px;
+}
+
+.imgsix{
+    max-width: 200px;
+    bottom: 134px;
+}
+
+.imgseven{
+    max-height: 210px;
+    bottom: 134px;
+    right: 67px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 960px)
+{
+
+    
+.imgone{
+    max-width: 100px;
+}
+.imgtwo {
+    max-height: 102px;
+    position: relative;
+    right: 32px;
+}
+
+.imgthree{
+
+    max-width: 120px;
+    bottom: 33px;
+}
+.imgfour{
+ max-width: 100px;
+ bottom: 34px;
+ right: 32px;
+    
+}
+
+.imgfive{
+max-height: 120px;
+bottom: 31px;
+right: 65px;
+}
+
+.imgsix{
+    max-width: 100px;
+    bottom: 67px;
+}
+
+.imgseven{
+    max-height: 105px;
+    bottom: 67px;
+    right: 32px;
+
+}
+}
